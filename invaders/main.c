@@ -282,7 +282,8 @@ int Disassemble8080Op(unsigned char *codebuffer, int pc) {
 
 int main (int argc, char**argv)    
    {    
-    argv[1] = "invaders.h";
+//    argv[1] = "invaders.h";
+//    argv[1] = "invaders";
     FILE *f= fopen(argv[1], "rb");    
     if (f==NULL)    
     {    
